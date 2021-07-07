@@ -23,19 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d0be71-77a9-4206-a15b-69fedb96f8bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/common/CpsSysLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/config/DaoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/controller/GetLogConttoller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/mapper/GetLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/service/GetLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/xinlei/log4j2demo2/mapper/GetLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/Log4j2demo2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/Log4j2demo2Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/config/AssertUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/common/CpsSysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/common/CpsSysLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/common/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/config/DaoConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/config/Log4j2Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/config/Log4j2Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/controller/GetLogConttoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/controller/GetLogConttoller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/controller/testLog4j2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/controller/testLog4j2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/service/GetLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinlei/log4j2demo2/service/GetLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinlei/log4j2demo2/mapper/GetLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinlei/log4j2demo2/mapper/GetLogMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +170,7 @@
       <updated>1625592136476</updated>
       <workItem from="1625592141531" duration="518000" />
       <workItem from="1625593218759" duration="2593000" />
-      <workItem from="1625618107406" duration="21870000" />
+      <workItem from="1625618107406" duration="22532000" />
     </task>
     <servers />
   </component>

@@ -3,6 +3,7 @@ package com.xinlei.log4j2demo2.common;
 import lombok.Data;
 
 import java.util.Date;
+
 @Data
 public class CpsSysLog {
     private int id;

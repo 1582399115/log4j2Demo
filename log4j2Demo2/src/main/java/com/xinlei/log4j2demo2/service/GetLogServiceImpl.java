@@ -11,6 +11,7 @@ import java.util.List;
 public class GetLogServiceImpl {
     @Autowired
     private GetLogMapper getLog;
+
     public List<CpsSysLog> getAllLog() {
         return getLog.getAllLog();
     }

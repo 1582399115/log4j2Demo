@@ -53,7 +53,6 @@ public class Log4j2Configuration implements ApplicationListener<ContextRefreshed
                         .setUnicode(false)
                         .build()
         };
-
         //配置appender
         final Appender appender = JdbcAppender
                 .newBuilder()
@@ -72,7 +71,7 @@ public class Log4j2Configuration implements ApplicationListener<ContextRefreshed
         ctx.getConfiguration().getLoggerConfig("org.springframework").addAppender(appender, null, null);
         ctx.getConfiguration().getLoggerConfig("com.alibaba.dubbo").addAppender(appender, null, null);
         ctx.getConfiguration().getLoggerConfig("druid.sql").addAppender(appender, null, null);
-        ctx.getConfiguration().getLoggerConfig("com.xinlei").addAppender(appender,null,null);
+        ctx.getConfiguration().getLoggerConfig("com.xinlei").addAppender(appender, null, null);
         ctx.updateLoggers();
     }
 }

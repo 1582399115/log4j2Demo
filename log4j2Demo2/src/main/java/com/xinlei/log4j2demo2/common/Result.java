@@ -11,6 +11,26 @@ public class Result<T> {
     //具体信息
     private T data;
 
+    public Result() {
+    }
+
+    public Result(Integer code, String msg) {
+        this.code = code;
+        this.msg = msg;
+    }
+
+    public Result(T data) {
+        this.data = data;
+    }
+
+    public static Result getSuccess() {
+        return new Result(200, "成功");
+    }
+
+    public static Result getFail() {
+        return new Result(400, "失败");
+    }
+
     public Integer getCode() {
         return code;
     }
@@ -33,23 +53,5 @@ public class Result<T> {
 
     public void setData(T data) {
         this.data = data;
-    }
-
-    public Result() {
-    }
-
-    public Result(Integer code, String msg) {
-        this.code = code;
-        this.msg = msg;
-    }
-
-    public Result(T data) {
-        this.data = data;
-    }
-    public static Result getSuccess(){
-        return new Result(200,"成功");
-    }
-    public static Result getFail(){
-        return new Result(400,"失败");
     }
 }

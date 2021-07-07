@@ -13,15 +13,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
     @Bean
-    public Docket createRestApi(){
-        Docket docket=new Docket(DocumentationType.SWAGGER_2)
+    public Docket createRestApi() {
+        Docket docket = new Docket(DocumentationType.SWAGGER_2)
                 .pathMapping("/")
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.xinlei"))
                 .paths(PathSelectors.any())
                 .build().apiInfo(new ApiInfoBuilder()
-                .title("获得生成的日志")
-                .build());
+                        .title("获得生成的日志")
+                        .build());
         return docket;
     }
 }

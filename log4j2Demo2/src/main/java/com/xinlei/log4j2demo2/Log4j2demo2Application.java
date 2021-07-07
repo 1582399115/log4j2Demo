@@ -10,8 +10,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @MapperScan("com.xinlei")
 public class Log4j2demo2Application {
 
-	public static void main(String[] args) {
-		SpringApplication.run(Log4j2demo2Application.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(Log4j2demo2Application.class, args);
+    }
 
 }
