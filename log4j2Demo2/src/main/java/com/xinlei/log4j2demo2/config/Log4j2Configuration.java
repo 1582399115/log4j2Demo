@@ -36,8 +36,8 @@ public class Log4j2Configuration implements ApplicationListener<ContextRefreshed
                         .setPattern("%t")
                         .setUnicode(false)
                         .build(),
-                ColumnConfig.newBuilder()
-                        .setConfiguration(ctx.getConfiguration()).setName("LEVEL").setPattern("%p")
+                ColumnConfig.newBuilder().setConfiguration(ctx.getConfiguration()).setName("LEVEL")
+                        .setPattern("%p")
                         .setUnicode(false)
                         .build(),
                 ColumnConfig.newBuilder().setConfiguration(ctx.getConfiguration()).setName("LINE")
@@ -72,6 +72,7 @@ public class Log4j2Configuration implements ApplicationListener<ContextRefreshed
         ctx.getConfiguration().getLoggerConfig("org.springframework").addAppender(appender, null, null);
         ctx.getConfiguration().getLoggerConfig("com.alibaba.dubbo").addAppender(appender, null, null);
         ctx.getConfiguration().getLoggerConfig("druid.sql").addAppender(appender, null, null);
+        ctx.getConfiguration().getLoggerConfig("com.xinlei").addAppender(appender,null,null);
         ctx.updateLoggers();
     }
 }

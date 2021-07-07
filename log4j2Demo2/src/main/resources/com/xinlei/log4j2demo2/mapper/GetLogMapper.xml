@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xinlei.log4j2demo2.mapper.GetLogMapper">
+    <resultMap id="CpsSysLog" type="com.xinlei.log4j2demo2.common.CpsSysLog">
+        <!-- 定义主键 ,非常重要。如果是多个字段,则定义多个id -->
+        <id property="id" column="ID" />
+        <result property="cla" column="CLASS" />
+        <result property="method" column="METHOD" />
+        <result property="thread" column="THREAD" />
+        <result property="level" column="LEVEL" />
+        <result property="line" column="LINE" />
+        <result property="msg" column="MSG" />
+        <result property="createTime" column="CREATE_TIME" />
+    </resultMap>
+    <select id="getAllLog" resultMap="CpsSysLog">
+        select * from cps_sys_log;
+    </select>
+</mapper>
